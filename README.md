@@ -97,6 +97,23 @@ SimHub sends one line per update: `gameRunning;speedKmh;fuelPercent;waterTemp;th
 The gauge scaling values are calibration from the original community sketch — that part of
 their work carried over unchanged, because it was already right.
 
+## Parts
+
+Everything used in this build:
+
+| Part | Used for | Link |
+|---|---|---|
+| ELEGOO Mega 2560 R3 (ATmega2560) | the brain — SimHub talks to it over USB | [amazon](https://www.amazon.com/dp/B01H4ZLZLQ) |
+| 12 V 2 A DC power adapter | powers the cluster's gauges and lights | [amazon](https://www.amazon.com/dp/B01AZLA9XQ) |
+| DC barrel jack screw-terminal adapters | clean tap from the 12 V adapter into the wiring | [amazon](https://www.amazon.com/dp/B0CR8TH2X2) |
+| Dupont jumper wires, male–female | Arduino pins to the cluster connector pins | [amazon](https://www.amazon.com/dp/B07GD1R5MS) |
+| TIP120 Darlington transistors (10 pack) | tachometer signal driver; the spares are reserved for the shift-light mod | [amazon](https://www.amazon.com/dp/B083TQN12B) |
+| Heat shrink tubing kit | insulating the splices | [amazon](https://www.amazon.com/dp/B072PCQ2LW) |
+| 80 W digital soldering iron kit | soldering the connector pins | [amazon](https://www.amazon.com/dp/B08R3515SF) |
+| Precision tweezers set | seating pins in the connector housings, pulling cluster bulbs | [amazon](https://www.amazon.com/dp/B07SSXX8MT) |
+
+Plus the E36 cluster itself, second-hand — eBay or a local breaker's yard.
+
 ## Wiring
 
 ![Wiring diagram](docs/wiring-diagram.svg)
