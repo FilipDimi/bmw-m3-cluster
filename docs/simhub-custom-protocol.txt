@@ -1,0 +1,13 @@
+SimHub -> Arduino -> My Hardware -> Single arduino -> Custom protocol -> EDIT
+(paste as one line, NCalc mode — the "Use javascript" toggle must be OFF)
+
+Standard (coolant temperature on the temp gauge):
+
+if([DataCorePlugin.GameRunning] = 1, '1', '0') + ';' + format([DataCorePlugin.GameData.NewData.SpeedKmh],'0') + ';' + format([DataCorePlugin.Computed.Fuel_Percent], '0') + ';' + format([DataCorePlugin.GameData.NewData.WaterTemperature], '0') + ';' + format([DataCorePlugin.GameData.NewData.Throttle], '0')
+
+Variant (average tyre temperature on the temp gauge — good for ACC):
+
+if([DataCorePlugin.GameRunning] = 1, '1', '0') + ';' + format([DataCorePlugin.GameData.NewData.SpeedKmh],'0') + ';' + format([DataCorePlugin.Computed.Fuel_Percent], '0') + ';' + format(([DataCorePlugin.GameData.NewData.TyreTemperatureFrontLeft] + [DataCorePlugin.GameData.NewData.TyreTemperatureFrontRight] + [DataCorePlugin.GameData.NewData.TyreTemperatureRearLeft] + [DataCorePlugin.GameData.NewData.TyreTemperatureRearRight]) / 4, '0') + ';' + format([DataCorePlugin.GameData.NewData.Throttle], '0')
+
+Message format the firmware expects:
+gameRunning;speedKmh;fuelPercent;temperature;throttle\n

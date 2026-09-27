@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 780" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1180" height="780" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="1179" height="779" fill="none" stroke="#d0d7de"/>
+  <text x="40" y="48" font-size="22" font-weight="600" fill="#24292f">BMW E36 cluster — SimHub wiring (Arduino Mega 2560)</text>
+
+  <rect x="70" y="200" width="250" height="340" rx="10" fill="#0d3b66" stroke="#082948" stroke-width="2"/>
+  <text x="195" y="232" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">ARDUINO MEGA 2560</text>
+  <text x="195" y="252" font-size="12" fill="#9fb9d0" text-anchor="middle">USB to PC (SimHub)</text>
+
+  <rect x="312" y="254" width="16" height="12" fill="#e6b400"/>
+  <text x="300" y="264" font-size="13" fill="#ffffff" text-anchor="end">D2</text>
+  <rect x="312" y="294" width="16" height="12" fill="#8250df"/>
+  <text x="300" y="304" font-size="13" fill="#ffffff" text-anchor="end">D3</text>
+  <rect x="312" y="334" width="16" height="12" fill="#2da44e"/>
+  <text x="300" y="344" font-size="13" fill="#ffffff" text-anchor="end">D4</text>
+  <rect x="312" y="374" width="16" height="12" fill="#9a6700"/>
+  <text x="300" y="384" font-size="13" fill="#ffffff" text-anchor="end">D5</text>
+  <rect x="312" y="414" width="16" height="12" fill="#00a3c4"/>
+  <text x="300" y="424" font-size="13" fill="#ffffff" text-anchor="end">D6</text>
+  <rect x="312" y="474" width="16" height="12" fill="#24292f" stroke="#ffffff" stroke-width="1"/>
+  <text x="300" y="484" font-size="13" fill="#ffffff" text-anchor="end">GND</text>
+
+  <rect x="70" y="600" width="250" height="90" rx="10" fill="#f6f8fa" stroke="#57606a" stroke-width="2"/>
+  <text x="195" y="635" font-size="16" font-weight="600" fill="#24292f" text-anchor="middle">12 V DC SUPPLY</text>
+  <circle cx="320" cy="625" r="7" fill="#d1242f"/>
+  <text x="305" y="630" font-size="13" fill="#24292f" text-anchor="end">+</text>
+  <circle cx="320" cy="660" r="7" fill="#24292f"/>
+  <text x="305" y="665" font-size="13" fill="#24292f" text-anchor="end">−</text>
+
+  <polyline points="320,260 400,260 400,150 812,150" fill="none" stroke="#e6b400" stroke-width="3"/>
+  <polyline points="320,340 430,340 430,175 812,175" fill="none" stroke="#2da44e" stroke-width="3"/>
+  <polyline points="320,420 460,420 460,445 812,445" fill="none" stroke="#00a3c4" stroke-width="3"/>
+  <polyline points="320,380 490,380 490,545 812,545" fill="none" stroke="#9a6700" stroke-width="3"/>
+  <polyline points="320,300 520,300 520,595 812,595" fill="none" stroke="#8250df" stroke-width="3"/>
+
+  <path d="M320,625 L560,625 L560,100 L812,100" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <path d="M560,200 L812,200" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <path d="M560,225 L812,225" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <path d="M560,370 L812,370" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <path d="M560,395 L812,395" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <path d="M560,420 L812,420" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <circle cx="560" cy="200" r="4" fill="#d1242f"/>
+  <circle cx="560" cy="225" r="4" fill="#d1242f"/>
+  <circle cx="560" cy="370" r="4" fill="#d1242f"/>
+  <circle cx="560" cy="395" r="4" fill="#d1242f"/>
+  <circle cx="560" cy="420" r="4" fill="#d1242f"/>
+
+  <path d="M320,660 L620,660 L620,125 L812,125" fill="none" stroke="#24292f" stroke-width="3"/>
+  <path d="M620,250 L812,250" fill="none" stroke="#24292f" stroke-width="3"/>
+  <path d="M620,345 L812,345" fill="none" stroke="#24292f" stroke-width="3"/>
+  <path d="M620,570 L812,570" fill="none" stroke="#24292f" stroke-width="3"/>
+  <path d="M320,480 L620,480" fill="none" stroke="#24292f" stroke-width="3"/>
+  <circle cx="620" cy="250" r="4" fill="#24292f"/>
+  <circle cx="620" cy="345" r="4" fill="#24292f"/>
+  <circle cx="620" cy="480" r="4" fill="#24292f"/>
+  <circle cx="620" cy="570" r="4" fill="#24292f"/>
+
+  <rect x="820" y="70" width="300" height="200" rx="8" fill="#ffffff" stroke="#57606a" stroke-width="2"/>
+  <text x="970" y="90" font-size="14" font-weight="600" fill="#24292f" text-anchor="middle">WHITE connector (26-pin)</text>
+  <circle cx="812" cy="100" r="5" fill="#d1242f"/>
+  <text x="832" y="105" font-size="13" fill="#24292f">pin 2 — +12 V</text>
+  <circle cx="812" cy="125" r="5" fill="#24292f"/>
+  <text x="832" y="130" font-size="13" fill="#24292f">pin 19 — ground</text>
+  <circle cx="812" cy="150" r="5" fill="#e6b400"/>
+  <text x="832" y="155" font-size="13" fill="#24292f">pin 20 — tachometer signal</text>
+  <circle cx="812" cy="175" r="5" fill="#2da44e"/>
+  <text x="832" y="180" font-size="13" fill="#24292f">pin 21 — economy gauge</text>
+  <circle cx="812" cy="200" r="5" fill="#d1242f"/>
+  <text x="832" y="205" font-size="13" fill="#24292f">pin 22 — +12 V</text>
+  <circle cx="812" cy="225" r="5" fill="#d1242f"/>
+  <text x="832" y="230" font-size="13" fill="#24292f">pin 23 — +12 V</text>
+  <circle cx="812" cy="250" r="5" fill="#24292f"/>
+  <text x="832" y="255" font-size="13" fill="#24292f">pin 24 — ground</text>
+
+  <rect x="820" y="310" width="300" height="160" rx="8" fill="#cfe4f7" stroke="#0969da" stroke-width="2"/>
+  <text x="970" y="330" font-size="14" font-weight="600" fill="#0a3069" text-anchor="middle">BLUE connector (26-pin)</text>
+  <circle cx="812" cy="345" r="5" fill="#24292f"/>
+  <text x="832" y="350" font-size="13" fill="#0a3069">pin 3 — ground</text>
+  <circle cx="812" cy="370" r="5" fill="#d1242f"/>
+  <text x="832" y="375" font-size="13" fill="#0a3069">pin 4 — +12 V</text>
+  <circle cx="812" cy="395" r="5" fill="#d1242f"/>
+  <text x="832" y="400" font-size="13" fill="#0a3069">pin 5 — +12 V</text>
+  <circle cx="812" cy="420" r="5" fill="#d1242f"/>
+  <text x="832" y="425" font-size="13" fill="#0a3069">pin 16 — +12 V</text>
+  <circle cx="812" cy="445" r="5" fill="#00a3c4"/>
+  <text x="832" y="450" font-size="13" fill="#0a3069">pin 18 — temperature gauge</text>
+
+  <rect x="820" y="510" width="300" height="115" rx="8" fill="#32383f" stroke="#24292f" stroke-width="2"/>
+  <text x="970" y="530" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">BLACK connector (12-pin)</text>
+  <circle cx="812" cy="545" r="5" fill="#9a6700"/>
+  <text x="832" y="550" font-size="13" fill="#ffffff">pin 1 — fuel gauge</text>
+  <circle cx="812" cy="570" r="5" fill="#24292f" stroke="#ffffff"/>
+  <text x="832" y="575" font-size="13" fill="#ffffff">pin 3 — ground</text>
+  <circle cx="812" cy="595" r="5" fill="#8250df"/>
+  <text x="832" y="600" font-size="13" fill="#ffffff">pin 4 — speedometer signal</text>
+
+  <rect x="40" y="700" width="1100" height="0" fill="none"/>
+  <rect x="46" y="712" width="18" height="6" fill="#e6b400"/>
+  <text x="70" y="721" font-size="13" fill="#24292f">D2 tach (timer5)</text>
+  <rect x="206" y="712" width="18" height="6" fill="#8250df"/>
+  <text x="230" y="721" font-size="13" fill="#24292f">D3 speedo (timer1)</text>
+  <rect x="386" y="712" width="18" height="6" fill="#2da44e"/>
+  <text x="410" y="721" font-size="13" fill="#24292f">D4 economy (PWM)</text>
+  <rect x="566" y="712" width="18" height="6" fill="#9a6700"/>
+  <text x="590" y="721" font-size="13" fill="#24292f">D5 fuel (PWM)</text>
+  <rect x="716" y="712" width="18" height="6" fill="#00a3c4"/>
+  <text x="740" y="721" font-size="13" fill="#24292f">D6 temp (PWM)</text>
+  <rect x="876" y="712" width="18" height="6" fill="#d1242f"/>
+  <text x="900" y="721" font-size="13" fill="#24292f">+12 V</text>
+  <rect x="966" y="712" width="18" height="6" fill="#24292f"/>
+  <text x="990" y="721" font-size="13" fill="#24292f">ground (common)</text>
+  <text x="46" y="752" font-size="12" fill="#57606a">Cluster pin numbering follows the molded numbers on the connector housings. Pinout per AMSTUDIO's E36 tutorial; redrawn for this Mega 2560 build.</text>
+</svg>
